@@ -17,7 +17,36 @@ a:hover {
 :root {
     --cam : #FF914D;
     --vang :#FFCF3C;
+    --nhat:#777;
+    --do:#E83201;
 }
+.box-head{
+    padding:0 15px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+.box-head .title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.box-head .desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--nhat);
+    margin-bottom: 50px;
+}
+@media(max-width:767.98px){
+    .box-head{
+        width: 100%;
+    }
+    .box-head .title{
+        font-size: 38px;
+        font-weight: 700;
+    }
+}
+
 @keyframes move{
     from {
         margin-top: -40px;
